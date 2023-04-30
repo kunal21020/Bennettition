@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/chat"
+
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/chat"
+        android:layout_width="98dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_14_at_7_44_51_pm" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="99dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_15_at_12_44_08_am__1_" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="293dp"
+        android:layout_height="413dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.405"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_14_at_7_45_44_pm" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="173dp"
+        android:layout_height="34dp"
+        android:text="Komal yadav"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageButton
+        android:id="@+id/like"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_15_at_12_58_26_am" />
+
+    <ImageButton
+        android:id="@+id/dislike"
+        android:layout_width="81dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_15_at_1_03_05_am__1_" />
+
+    <ImageButton
+        android:id="@+id/refresh"
+        android:layout_width="95dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/like"
+        app:layout_constraintStart_toEndOf="@+id/dislike"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_15_at_1_10_00_am" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
